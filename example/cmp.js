@@ -1,0 +1,5 @@
+var type = require('../')
+var B = type('buffer[3]')
+var bufs = [ 'zzz', 'qrs', '123', '100' ].map(Buffer)
+bufs.sort(function (a, b) { return B.cmp.lt(a, b) ? -1 : 1 })
+console.log(bufs.map(String))

@@ -1,0 +1,5 @@
+var type = require('../')
+var f = type('uint16')
+var buf = new Buffer(2)
+f.write(buf, 5555, 0)
+console.log(buf.toString('hex'))
