@@ -1,0 +1,41 @@
+{
+  "name": "comparable-storable-types",
+  "version": "1.0.0",
+  "description": "read, write, and compare types",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "keywords": [
+    "binary",
+    "buffer",
+    "float",
+    "uint8",
+    "uint16",
+    "uint32",
+    "int8",
+    "int16",
+    "int32",
+    "types",
+    "signed",
+    "unsigned"
+  ],
+  "author": "substack",
+  "license": "BSD",
+  "dependencies": {
+    "almost-equal": "^1.0.0"
+  },
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/substack/comparable-storable-types.git"
+  },
+  "bugs": {
+    "url": "https://github.com/substack/comparable-storable-types/issues"
+  },
+  "homepage": "https://github.com/substack/comparable-storable-types#readme"
+}
