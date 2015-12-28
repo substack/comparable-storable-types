@@ -29,7 +29,9 @@
     "example": "example",
     "test": "test"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.4.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/substack/comparable-storable-types.git"
