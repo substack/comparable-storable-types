@@ -1,7 +1,7 @@
 {
   "name": "comparable-storable-types",
   "version": "1.0.0",
-  "description": "read, write, and compare types",
+  "description": "read, write, and compare binary types",
   "main": "index.js",
   "scripts": {
     "test": "tape test/*.js"
