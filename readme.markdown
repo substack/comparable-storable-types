@@ -34,7 +34,7 @@ console.log(x)
 ``` js
 var type = require('comparable-storable-types')
 var B = type('buffer[3]')
-var bufs = [ 'zzz', 'qrs', '123', '100' ].map(Buffer)
+var bufs = [ 'zzz', 'qrs', '123', '100' ].map(function (s) { return new Buffer(s) })
 bufs.sort(function (a, b) { return B.cmp.lt(a, b) ? -1 : 1 })
 console.log(bufs.map(String))
 ```
